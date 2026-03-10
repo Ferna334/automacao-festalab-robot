@@ -17,7 +17,7 @@ Cenario: Criar convite completo com Login e Upload
     
     # Agendamento
     Clicar e Aguardar    ${CAMPO_DATA}
-    Clicar e Aguardar    ${DIA_10}
+    Clicar e Aguardar    ${DIA_30}
     Click Element        ${BTN_OK_VISIVEL}
     Clicar e Aguardar    ${BTN_OK_VISIVEL}
     

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.13.7 on win32)" generated="20260309 23:04:46.964" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.13.7 on win32)" generated="20260309 23:37:32.054" rpa="false" schemaversion="3">
 <suite id="s1" name="Fluxo Convite" source="C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\fluxo_convite.robot">
 <test id="s1-t1" name="Cenario: Criar convite completo com Login e Upload" line="6">
 <kw name="Abrir o site da FestaLab" library="keywords" type="SETUP">
@@ -7,104 +7,104 @@
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20260309 23:04:47.768" level="INFO">Opening browser 'chrome' to base url 'https://festalab.com.br/'.</msg>
-<status status="PASS" starttime="20260309 23:04:47.767" endtime="20260309 23:04:51.943"/>
+<msg timestamp="20260309 23:37:32.324" level="INFO">Opening browser 'chrome' to base url 'https://festalab.com.br/'.</msg>
+<status status="PASS" starttime="20260309 23:37:32.324" endtime="20260309 23:37:35.708"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20260309 23:04:51.944" endtime="20260309 23:04:51.986"/>
+<status status="PASS" starttime="20260309 23:37:35.708" endtime="20260309 23:37:35.746"/>
 </kw>
 <kw name="Set Selenium Timeout" library="SeleniumLibrary">
 <arg>30 seconds</arg>
 <doc>Sets the timeout that is used by various keywords.</doc>
-<status status="PASS" starttime="20260309 23:04:51.986" endtime="20260309 23:04:51.993"/>
+<status status="PASS" starttime="20260309 23:37:35.747" endtime="20260309 23:37:35.751"/>
 </kw>
 <kw name="Set Selenium Speed" library="SeleniumLibrary">
 <arg>0.6 seconds</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" starttime="20260309 23:04:51.993" endtime="20260309 23:04:51.993"/>
+<status status="PASS" starttime="20260309 23:37:35.751" endtime="20260309 23:37:35.752"/>
 </kw>
-<status status="PASS" starttime="20260309 23:04:47.767" endtime="20260309 23:04:51.993"/>
+<status status="PASS" starttime="20260309 23:37:32.324" endtime="20260309 23:37:35.752"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${BTN_CRIAR}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:04:51.995" endtime="20260309 23:04:53.280"/>
+<status status="PASS" starttime="20260309 23:37:35.753" endtime="20260309 23:37:37.005"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:04:53.281" endtime="20260309 23:04:55.146"/>
+<status status="PASS" starttime="20260309 23:37:37.005" endtime="20260309 23:37:38.874"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:04:55.147" level="INFO">Clicking element 'id=create-invitation-cta'.</msg>
-<status status="PASS" starttime="20260309 23:04:55.146" endtime="20260309 23:04:56.482"/>
+<msg timestamp="20260309 23:37:38.875" level="INFO">Clicking element 'id=create-invitation-cta'.</msg>
+<status status="PASS" starttime="20260309 23:37:38.874" endtime="20260309 23:37:40.239"/>
 </kw>
-<status status="PASS" starttime="20260309 23:04:51.994" endtime="20260309 23:04:56.483"/>
+<status status="PASS" starttime="20260309 23:37:35.753" endtime="20260309 23:37:40.240"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${BTN_USE_ARTE}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:04:56.485" endtime="20260309 23:04:57.742"/>
+<status status="PASS" starttime="20260309 23:37:40.243" endtime="20260309 23:37:41.499"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:04:57.742" endtime="20260309 23:04:59.581"/>
+<status status="PASS" starttime="20260309 23:37:41.499" endtime="20260309 23:37:43.334"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:04:59.582" level="INFO">Clicking element 'id=featured_use_your_art'.</msg>
-<status status="PASS" starttime="20260309 23:04:59.581" endtime="20260309 23:05:00.873"/>
+<msg timestamp="20260309 23:37:43.337" level="INFO">Clicking element 'id=featured_use_your_art'.</msg>
+<status status="PASS" starttime="20260309 23:37:43.335" endtime="20260309 23:37:44.627"/>
 </kw>
-<status status="PASS" starttime="20260309 23:04:56.484" endtime="20260309 23:05:00.873"/>
+<status status="PASS" starttime="20260309 23:37:40.242" endtime="20260309 23:37:44.628"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${BTN_PERSONALIZAR}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:00.874" endtime="20260309 23:05:02.124"/>
+<status status="PASS" starttime="20260309 23:37:44.630" endtime="20260309 23:37:45.876"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:05:02.124" endtime="20260309 23:05:03.974"/>
+<status status="PASS" starttime="20260309 23:37:45.876" endtime="20260309 23:37:47.749"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:03.974" level="INFO">Clicking element 'id=customize-button'.</msg>
-<status status="PASS" starttime="20260309 23:05:03.974" endtime="20260309 23:05:06.064"/>
+<msg timestamp="20260309 23:37:47.751" level="INFO">Clicking element 'id=customize-button'.</msg>
+<status status="PASS" starttime="20260309 23:37:47.750" endtime="20260309 23:37:49.519"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:00.874" endtime="20260309 23:05:06.064"/>
+<status status="PASS" starttime="20260309 23:37:44.629" endtime="20260309 23:37:49.519"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${OPT_OCASIOES}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:06.065" endtime="20260309 23:05:07.314"/>
+<status status="PASS" starttime="20260309 23:37:49.520" endtime="20260309 23:37:50.770"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:05:07.314" endtime="20260309 23:05:09.175"/>
+<status status="PASS" starttime="20260309 23:37:50.771" endtime="20260309 23:37:52.628"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:09.176" level="INFO">Clicking element 'xpath=//label[contains(., "Ocasiões especiais")]'.</msg>
-<status status="PASS" starttime="20260309 23:05:09.175" endtime="20260309 23:05:10.471"/>
+<msg timestamp="20260309 23:37:52.629" level="INFO">Clicking element 'xpath=//label[contains(., "Ocasiões especiais")]'.</msg>
+<status status="PASS" starttime="20260309 23:37:52.629" endtime="20260309 23:37:53.898"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:06.065" endtime="20260309 23:05:10.471"/>
+<status status="PASS" starttime="20260309 23:37:49.520" endtime="20260309 23:37:53.898"/>
 </kw>
 <kw name="Preencher e Confirmar" library="keywords">
 <arg>${INPUT_NOME}</arg>
@@ -112,108 +112,108 @@
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:10.474" endtime="20260309 23:05:11.708"/>
+<status status="PASS" starttime="20260309 23:37:53.901" endtime="20260309 23:37:55.155"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <arg>${texto}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:11.709" level="INFO">Typing text 'Churras da Fefe' into text field 'css:input[type="text"]'.</msg>
-<status status="PASS" starttime="20260309 23:05:11.708" endtime="20260309 23:05:13.633"/>
+<msg timestamp="20260309 23:37:55.156" level="INFO">Typing text 'Churras da Fefe' into text field 'css:input[type="text"]'.</msg>
+<status status="PASS" starttime="20260309 23:37:55.156" endtime="20260309 23:37:57.100"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${BTN_OK_VISIVEL}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:13.635" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
-<status status="PASS" starttime="20260309 23:05:13.633" endtime="20260309 23:05:14.935"/>
+<msg timestamp="20260309 23:37:57.102" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
+<status status="PASS" starttime="20260309 23:37:57.100" endtime="20260309 23:37:58.397"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:10.473" endtime="20260309 23:05:14.935"/>
+<status status="PASS" starttime="20260309 23:37:53.901" endtime="20260309 23:37:58.397"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${CAMPO_DATA}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:14.937" endtime="20260309 23:05:16.188"/>
+<status status="PASS" starttime="20260309 23:37:58.398" endtime="20260309 23:37:59.657"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:05:16.188" endtime="20260309 23:05:18.039"/>
+<status status="PASS" starttime="20260309 23:37:59.658" endtime="20260309 23:38:01.502"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:18.040" level="INFO">Clicking element 'css:.calendar-input'.</msg>
-<status status="PASS" starttime="20260309 23:05:18.039" endtime="20260309 23:05:19.326"/>
+<msg timestamp="20260309 23:38:01.503" level="INFO">Clicking element 'css:.calendar-input'.</msg>
+<status status="PASS" starttime="20260309 23:38:01.503" endtime="20260309 23:38:02.812"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:14.936" endtime="20260309 23:05:19.326"/>
+<status status="PASS" starttime="20260309 23:37:58.398" endtime="20260309 23:38:02.812"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
-<arg>${DIA_10}</arg>
+<arg>${DIA_30}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:19.328" endtime="20260309 23:05:20.590"/>
+<status status="PASS" starttime="20260309 23:38:02.815" endtime="20260309 23:38:04.067"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:05:20.590" endtime="20260309 23:05:22.459"/>
+<status status="PASS" starttime="20260309 23:38:04.068" endtime="20260309 23:38:05.919"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:22.460" level="INFO">Clicking element 'xpath=//div[contains(@class, "calendar-body__day") and text()="10"]'.</msg>
-<status status="PASS" starttime="20260309 23:05:22.459" endtime="20260309 23:05:23.743"/>
+<msg timestamp="20260309 23:38:05.921" level="INFO">Clicking element 'xpath=//div[contains(@class, "calendar-body__day") and text()="30"]'.</msg>
+<status status="PASS" starttime="20260309 23:38:05.920" endtime="20260309 23:38:07.190"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:19.327" endtime="20260309 23:05:23.744"/>
+<status status="PASS" starttime="20260309 23:38:02.815" endtime="20260309 23:38:07.191"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${BTN_OK_VISIVEL}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:23.747" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
-<status status="PASS" starttime="20260309 23:05:23.746" endtime="20260309 23:05:25.028"/>
+<msg timestamp="20260309 23:38:07.193" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
+<status status="PASS" starttime="20260309 23:38:07.192" endtime="20260309 23:38:08.462"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${BTN_OK_VISIVEL}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:25.032" endtime="20260309 23:05:26.283"/>
+<status status="PASS" starttime="20260309 23:38:08.465" endtime="20260309 23:38:09.712"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:05:26.283" endtime="20260309 23:05:28.142"/>
+<status status="PASS" starttime="20260309 23:38:09.712" endtime="20260309 23:38:11.583"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:28.143" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
-<status status="PASS" starttime="20260309 23:05:28.142" endtime="20260309 23:05:29.413"/>
+<msg timestamp="20260309 23:38:11.584" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
+<status status="PASS" starttime="20260309 23:38:11.583" endtime="20260309 23:38:12.928"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:25.031" endtime="20260309 23:05:29.413"/>
+<status status="PASS" starttime="20260309 23:38:08.464" endtime="20260309 23:38:12.928"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${BTN_SIM}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:29.416" endtime="20260309 23:05:30.672"/>
+<status status="PASS" starttime="20260309 23:38:12.930" endtime="20260309 23:38:14.170"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:05:30.672" endtime="20260309 23:05:32.527"/>
+<status status="PASS" starttime="20260309 23:38:14.170" endtime="20260309 23:38:16.037"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:32.528" level="INFO">Clicking element 'xpath=//button[contains(., "Sim")]'.</msg>
-<status status="PASS" starttime="20260309 23:05:32.528" endtime="20260309 23:05:33.814"/>
+<msg timestamp="20260309 23:38:16.038" level="INFO">Clicking element 'xpath=//button[contains(., "Sim")]'.</msg>
+<status status="PASS" starttime="20260309 23:38:16.037" endtime="20260309 23:38:17.389"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:29.415" endtime="20260309 23:05:33.814"/>
+<status status="PASS" starttime="20260309 23:38:12.929" endtime="20260309 23:38:17.389"/>
 </kw>
 <kw name="Preencher e Confirmar" library="keywords">
 <arg>${INPUT_CEP}</arg>
@@ -221,53 +221,53 @@
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:33.815" endtime="20260309 23:05:35.048"/>
+<status status="PASS" starttime="20260309 23:38:17.392" endtime="20260309 23:38:18.637"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <arg>${texto}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:35.049" level="INFO">Typing text '09030-550' into text field 'xpath=//input[@name="event[zipcode]"]'.</msg>
-<status status="PASS" starttime="20260309 23:05:35.049" endtime="20260309 23:05:37.048"/>
+<msg timestamp="20260309 23:38:18.640" level="INFO">Typing text '09030-550' into text field 'xpath=//input[@name="event[zipcode]"]'.</msg>
+<status status="PASS" starttime="20260309 23:38:18.638" endtime="20260309 23:38:20.557"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${BTN_OK_VISIVEL}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:37.048" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
-<status status="PASS" starttime="20260309 23:05:37.048" endtime="20260309 23:05:38.329"/>
+<msg timestamp="20260309 23:38:20.559" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
+<status status="PASS" starttime="20260309 23:38:20.558" endtime="20260309 23:38:21.837"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:33.815" endtime="20260309 23:05:38.329"/>
+<status status="PASS" starttime="20260309 23:38:17.390" endtime="20260309 23:38:21.838"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${BTN_OK_VISIVEL}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:38.330" endtime="20260309 23:05:39.572"/>
+<status status="PASS" starttime="20260309 23:38:21.840" endtime="20260309 23:38:23.102"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${BTN_OK_VISIVEL}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:39.575" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
-<status status="PASS" starttime="20260309 23:05:39.574" endtime="20260309 23:05:40.866"/>
+<msg timestamp="20260309 23:38:23.106" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
+<status status="PASS" starttime="20260309 23:38:23.104" endtime="20260309 23:38:24.390"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${BTN_OUTRO}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:40.870" endtime="20260309 23:05:42.123"/>
+<status status="PASS" starttime="20260309 23:38:24.392" endtime="20260309 23:38:25.640"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:05:42.124" endtime="20260309 23:05:43.989"/>
+<status status="PASS" starttime="20260309 23:38:25.640" endtime="20260309 23:38:27.495"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:43.991" level="INFO">Clicking element 'xpath=//button[contains(., "Outro")]'.</msg>
-<status status="PASS" starttime="20260309 23:05:43.990" endtime="20260309 23:05:45.272"/>
+<msg timestamp="20260309 23:38:27.496" level="INFO">Clicking element 'xpath=//button[contains(., "Outro")]'.</msg>
+<status status="PASS" starttime="20260309 23:38:27.495" endtime="20260309 23:38:28.770"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:40.869" endtime="20260309 23:05:45.272"/>
+<status status="PASS" starttime="20260309 23:38:24.391" endtime="20260309 23:38:28.770"/>
 </kw>
 <kw name="Preencher e Confirmar" library="keywords">
 <arg>${INPUT_OUTRO_LOCAL}</arg>
@@ -275,22 +275,22 @@
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:45.274" endtime="20260309 23:05:46.544"/>
+<status status="PASS" starttime="20260309 23:38:28.774" endtime="20260309 23:38:30.019"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <arg>${texto}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:46.545" level="INFO">Typing text 'casa da sogra' into text field 'xpath=//div[contains(@class, "active")]//input[@data-form-target="input"]'.</msg>
-<status status="PASS" starttime="20260309 23:05:46.544" endtime="20260309 23:05:48.457"/>
+<msg timestamp="20260309 23:38:30.021" level="INFO">Typing text 'casa da sogra' into text field 'xpath=//div[contains(@class, "active")]//input[@data-form-target="input"]'.</msg>
+<status status="PASS" starttime="20260309 23:38:30.019" endtime="20260309 23:38:31.934"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${BTN_OK_VISIVEL}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:48.458" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
-<status status="PASS" starttime="20260309 23:05:48.457" endtime="20260309 23:05:49.752"/>
+<msg timestamp="20260309 23:38:31.935" level="INFO">Clicking element 'xpath=(//button[contains(., "OK")])[last()]'.</msg>
+<status status="PASS" starttime="20260309 23:38:31.934" endtime="20260309 23:38:33.221"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:45.274" endtime="20260309 23:05:49.753"/>
+<status status="PASS" starttime="20260309 23:38:28.772" endtime="20260309 23:38:33.222"/>
 </kw>
 <kw name="Realizar Login" library="keywords">
 <arg>hidir20311@keecs.com</arg>
@@ -300,49 +300,49 @@
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:49.757" endtime="20260309 23:05:54.310"/>
+<status status="PASS" starttime="20260309 23:38:33.226" endtime="20260309 23:38:37.796"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:05:54.310" endtime="20260309 23:05:56.167"/>
+<status status="PASS" starttime="20260309 23:38:37.797" endtime="20260309 23:38:39.644"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:56.168" level="INFO">Clicking element 'xpath=//a[contains(., "Já tenho conta")]'.</msg>
-<status status="PASS" starttime="20260309 23:05:56.167" endtime="20260309 23:05:57.443"/>
+<msg timestamp="20260309 23:38:39.646" level="INFO">Clicking element 'xpath=//a[contains(., "Já tenho conta")]'.</msg>
+<status status="PASS" starttime="20260309 23:38:39.644" endtime="20260309 23:38:40.946"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:49.756" endtime="20260309 23:05:57.443"/>
+<status status="PASS" starttime="20260309 23:38:33.225" endtime="20260309 23:38:40.946"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${INPUT_EMAIL}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:05:57.444" endtime="20260309 23:05:58.691"/>
+<status status="PASS" starttime="20260309 23:38:40.947" endtime="20260309 23:38:42.214"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${INPUT_EMAIL}</arg>
 <arg>${email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20260309 23:05:58.693" level="INFO">Typing text 'hidir20311@keecs.com' into text field 'id=session_email'.</msg>
-<status status="PASS" starttime="20260309 23:05:58.691" endtime="20260309 23:06:00.644"/>
+<msg timestamp="20260309 23:38:42.216" level="INFO">Typing text 'hidir20311@keecs.com' into text field 'id=session_email'.</msg>
+<status status="PASS" starttime="20260309 23:38:42.214" endtime="20260309 23:38:44.188"/>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <arg>${INPUT_SENHA}</arg>
 <arg>${senha}</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<msg timestamp="20260309 23:06:00.645" level="INFO">Typing password into text field 'id=session_password'.</msg>
-<msg timestamp="20260309 23:06:01.897" level="INFO">Temporally setting log level to: NONE</msg>
-<msg timestamp="20260309 23:06:02.581" level="INFO">Log level changed from NONE to INFO.</msg>
-<status status="PASS" starttime="20260309 23:06:00.644" endtime="20260309 23:06:02.581"/>
+<msg timestamp="20260309 23:38:44.190" level="INFO">Typing password into text field 'id=session_password'.</msg>
+<msg timestamp="20260309 23:38:45.458" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20260309 23:38:46.113" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20260309 23:38:44.188" endtime="20260309 23:38:46.113"/>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <arg>${BTN_ENTRAR_MODAL}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20260309 23:06:02.584" level="INFO">Clicking button 'id=session_form_submit'.</msg>
-<status status="PASS" starttime="20260309 23:06:02.582" endtime="20260309 23:06:05.699"/>
+<msg timestamp="20260309 23:38:46.114" level="INFO">Clicking button 'id=session_form_submit'.</msg>
+<status status="PASS" starttime="20260309 23:38:46.113" endtime="20260309 23:38:49.225"/>
 </kw>
-<status status="PASS" starttime="20260309 23:05:49.755" endtime="20260309 23:06:05.700"/>
+<status status="PASS" starttime="20260309 23:38:33.224" endtime="20260309 23:38:49.226"/>
 </kw>
 <kw name="Realizar Upload da Foto" library="keywords">
 <arg>imagem_testeJPEG.jpeg</arg>
@@ -350,77 +350,77 @@
 <var>${IMAGEM_PATH}</var>
 <arg>C:\\Users\\fernanda.silva_d4sig\\Desktop\\Projeto_FestaLab\\resources/../tests/images/${nome_imagem}</arg>
 <doc>Normalizes the given path.</doc>
-<msg timestamp="20260309 23:06:05.703" level="INFO">${IMAGEM_PATH} = C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\images\imagem_testeJPEG.jpeg</msg>
-<status status="PASS" starttime="20260309 23:06:05.703" endtime="20260309 23:06:05.703"/>
+<msg timestamp="20260309 23:38:49.229" level="INFO">${IMAGEM_PATH} = C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\images\imagem_testeJPEG.jpeg</msg>
+<status status="PASS" starttime="20260309 23:38:49.228" endtime="20260309 23:38:49.229"/>
 </kw>
 <kw name="File Should Exist" library="OperatingSystem">
 <arg>${IMAGEM_PATH}</arg>
 <doc>Fails unless the given ``path`` points to an existing file.</doc>
-<msg timestamp="20260309 23:06:05.704" level="INFO" html="true">File '&lt;a href="file://C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\images\imagem_testeJPEG.jpeg"&gt;C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\images\imagem_testeJPEG.jpeg&lt;/a&gt;' exists.</msg>
-<status status="PASS" starttime="20260309 23:06:05.704" endtime="20260309 23:06:05.704"/>
+<msg timestamp="20260309 23:38:49.230" level="INFO" html="true">File '&lt;a href="file://C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\images\imagem_testeJPEG.jpeg"&gt;C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\images\imagem_testeJPEG.jpeg&lt;/a&gt;' exists.</msg>
+<status status="PASS" starttime="20260309 23:38:49.229" endtime="20260309 23:38:49.230"/>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <arg>${INPUT_FILE}</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" starttime="20260309 23:06:05.705" endtime="20260309 23:06:07.154"/>
+<status status="PASS" starttime="20260309 23:38:49.230" endtime="20260309 23:38:50.702"/>
 </kw>
 <kw name="Choose File" library="SeleniumLibrary">
 <arg>${INPUT_FILE}</arg>
 <arg>${IMAGEM_PATH}</arg>
 <doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
-<msg timestamp="20260309 23:06:07.156" level="INFO">Sending C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\images\imagem_testeJPEG.jpeg to browser.</msg>
-<status status="PASS" starttime="20260309 23:06:07.155" endtime="20260309 23:06:08.428"/>
+<msg timestamp="20260309 23:38:50.704" level="INFO">Sending C:\Users\fernanda.silva_d4sig\Desktop\Projeto_FestaLab\tests\images\imagem_testeJPEG.jpeg to browser.</msg>
+<status status="PASS" starttime="20260309 23:38:50.703" endtime="20260309 23:38:51.982"/>
 </kw>
 <kw name="Clicar e Aguardar" library="keywords">
 <arg>${BTN_SALVAR_FOTO}</arg>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20260309 23:06:08.429" endtime="20260309 23:06:09.670"/>
+<status status="PASS" starttime="20260309 23:38:51.983" endtime="20260309 23:38:53.222"/>
 </kw>
 <kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Waits until the element ``locator`` is enabled.</doc>
-<status status="PASS" starttime="20260309 23:06:09.671" endtime="20260309 23:06:11.534"/>
+<status status="PASS" starttime="20260309 23:38:53.222" endtime="20260309 23:38:55.095"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${seletor}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20260309 23:06:11.536" level="INFO">Clicking element 'id=new_photo_form_submit'.</msg>
-<status status="PASS" starttime="20260309 23:06:11.534" endtime="20260309 23:06:12.829"/>
+<msg timestamp="20260309 23:38:55.095" level="INFO">Clicking element 'id=new_photo_form_submit'.</msg>
+<status status="PASS" starttime="20260309 23:38:55.095" endtime="20260309 23:38:56.413"/>
 </kw>
-<status status="PASS" starttime="20260309 23:06:08.429" endtime="20260309 23:06:12.829"/>
+<status status="PASS" starttime="20260309 23:38:51.982" endtime="20260309 23:38:56.413"/>
 </kw>
-<status status="PASS" starttime="20260309 23:06:05.702" endtime="20260309 23:06:12.830"/>
+<status status="PASS" starttime="20260309 23:38:49.227" endtime="20260309 23:38:56.413"/>
 </kw>
 <kw name="Aguardar e Validar Convite Pronto" library="keywords">
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <arg>Churras da Fefe</arg>
 <arg>60s</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" starttime="20260309 23:06:12.833" endtime="20260309 23:06:14.697"/>
+<status status="PASS" starttime="20260309 23:38:56.415" endtime="20260309 23:38:58.233"/>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <arg>convite_finalizado.png</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20260309 23:06:15.465" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="convite_finalizado.png"&gt;&lt;img src="convite_finalizado.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20260309 23:06:14.697" endtime="20260309 23:06:15.466"/>
+<msg timestamp="20260309 23:38:58.999" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="convite_finalizado.png"&gt;&lt;img src="convite_finalizado.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20260309 23:38:58.233" endtime="20260309 23:38:58.999"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Churras da Fefe</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20260309 23:06:16.702" level="INFO">Current page contains text 'Churras da Fefe'.</msg>
-<status status="PASS" starttime="20260309 23:06:15.466" endtime="20260309 23:06:16.702"/>
+<msg timestamp="20260309 23:39:00.235" level="INFO">Current page contains text 'Churras da Fefe'.</msg>
+<status status="PASS" starttime="20260309 23:38:58.999" endtime="20260309 23:39:00.236"/>
 </kw>
-<status status="PASS" starttime="20260309 23:06:12.832" endtime="20260309 23:06:16.702"/>
+<status status="PASS" starttime="20260309 23:38:56.414" endtime="20260309 23:39:00.237"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20260309 23:06:16.704" endtime="20260309 23:06:19.521"/>
+<status status="PASS" starttime="20260309 23:39:00.240" endtime="20260309 23:39:03.043"/>
 </kw>
-<status status="PASS" starttime="20260309 23:04:47.767" endtime="20260309 23:06:19.522"/>
+<status status="PASS" starttime="20260309 23:37:32.323" endtime="20260309 23:39:03.044"/>
 </test>
-<status status="PASS" starttime="20260309 23:04:46.967" endtime="20260309 23:06:19.526"/>
+<status status="PASS" starttime="20260309 23:37:32.056" endtime="20260309 23:39:03.047"/>
 </suite>
 <statistics>
 <total>

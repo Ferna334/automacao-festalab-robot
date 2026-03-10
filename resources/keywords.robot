@@ -13,7 +13,7 @@ ${BTN_PERSONALIZAR}     id=customize-button
 ${OPT_OCASIOES}         xpath=//label[contains(., "Ocasiões especiais")]
 ${INPUT_NOME}           css:input[type="text"]
 ${CAMPO_DATA}           css:.calendar-input
-${DIA_10}               xpath=//div[contains(@class, "calendar-body__day") and text()="10"]
+${DIA_30}               xpath=//div[contains(@class, "calendar-body__day") and text()="30"]
 ${BTN_OK_VISIVEL}       xpath=(//button[contains(., "OK")])[last()]
 ${BTN_SIM}              xpath=//button[contains(., "Sim")]
 ${INPUT_CEP}            xpath=//input[@name="event[zipcode]"]
