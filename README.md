@@ -32,16 +32,3 @@ O robô realiza a jornada completa do usuário, garantindo a integridade das seg
 
    ### 3. Salvar o arquivo
 Não esqueça de dar um **Ctrl + S** para salvar as alterações no VS Code.
-
----
-
-### E agora, como mando para o GitHub?
-Agora que o README está bonitão, você vai usar aqueles comandos de terminal que conversamos:
-
-1. No terminal do VS Code: `git add .` (isso vai incluir o novo README).
-2. `git commit -m "docs: atualiza README com documentação profissional"`
-3. E por fim: `git push -u origin principal`
-
-**Dica:** Depois que você der o `push`, atualize a página do seu navegador no GitHub. Você verá que o texto que você colou aparecerá formatado com títulos, negritos e blocos de código!
-
-**Quer que eu te ajude com mais algum detalhe no texto antes de você subir?**
